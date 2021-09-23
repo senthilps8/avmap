@@ -1,6 +1,6 @@
 # Audio-Visual Floorplan Reconstruction
 
-![AV-Map Model](http://www.cs.cmu.edu/~spurushw/projects/avmap/teaser.png)
+![AV-Map Model](http://www.cs.cmu.edu/~spurushw/publication/avmap/teaser.png)
 
 This is the code accompanying the work:  
 
