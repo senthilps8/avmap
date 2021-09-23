@@ -1,0 +1,12 @@
+model:
+        decoder_model:
+                channel_factor: 16
+                output_gridsize: ${data.output_gridsize}
+                out_nhoods: ${data.out_nhoods} 
+                out_nscales: 1
+                pool_nhoods: False
+                type: 'transformer_unet'
+                transformer_nhead: ${model.transformer_nhead}
+                transformer_prenorm: ${model.transformer_prenorm}
+                n_classes: 2
+                dropout: ${model.dropout}

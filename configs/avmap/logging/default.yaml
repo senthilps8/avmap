@@ -1,0 +1,10 @@
+logging:
+        print_freq: 10
+        train_eval_freq: 200
+        eval_freq: 1000
+        save_freq: 250
+        name: 'exp'
+        suffix: ''
+        log_tb: True
+        ckpt_dir: ${environment.project_dir}/audioperception_data/checkpoints/
+        tb_dir: ${environment.project_dir}/audioperception_data/tblogs/

@@ -1,0 +1,15 @@
+environment:
+        project_dir: '/glusterfs/spurushw/AUDIO/'
+        evaluate_path: ''
+        evaluate_balanced: True
+        world_size: 1
+        workers: 16
+        dist_backend: 'nccl'
+        seed: 1992
+        ngpu: 4
+        gpu: ''
+        dist_url: ''
+        multiprocessing_distributed: True
+        distributed: True
+        rank: 0
+        port: 11992

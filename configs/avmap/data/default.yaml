@@ -1,0 +1,22 @@
+data:
+        duration: 8000
+        audio_dir: ${environment.project_dir}/av_mp3d
+        obs_dir: ${environment.project_dir}/mp3d_all_observations_localfow/
+        train_env_list_file: 'datasets/scenes_train.txt'
+        val_env_list_file: 'datasets/scenes_test.txt'
+        output_gridsize: [64, 64]
+        out_nhood: 128
+        angle_range: [0, 360]
+        rgb_size: 128
+        pool_steps: ${model.pool_steps}
+        full_eval_path: 'datasets/test_allroom.pkl'
+        full_eval_nsteps: [4]
+        batch_size: ${optim.batch_size}
+        epoch_size: 5004
+        convolution_mode: 'full'
+        # Configure these parameters:
+        n_steps: 4
+        n_sources: 1
+        convolve_audio_clip: True
+        source_at_receiver: True
+        disable_audio: False

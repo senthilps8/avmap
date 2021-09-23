@@ -1,0 +1,11 @@
+optim:
+        epochs: 4
+        start_epoch: 0
+        batch_size: 32
+        val_batch_size: 2
+        lr: 0.1
+        momentum: 0.9
+        weight_decay: 0.0001
+        steps: [3]
+        n_batches_update: 2
+        max_grad_norm: 0.0

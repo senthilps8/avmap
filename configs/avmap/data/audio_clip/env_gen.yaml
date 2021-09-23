@@ -1,0 +1,7 @@
+data:
+        train_audio_clip:
+                func: 'semantic_train_clips'
+                args: [2.5,False,True]
+        test_audio_clip:
+                func: 'semantic_test_clips'
+                args: [2.5,True,True]

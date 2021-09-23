@@ -1,0 +1,11 @@
+defaults:
+        - environment: default
+        - model: default
+        - model/rgb_model: default
+        - model/audio_model: default
+        - model/decoder_model: default
+        - loss: default
+        - optim: default
+        - data: default
+        - data/audio_clip: freq_sweep
+        - logging: default

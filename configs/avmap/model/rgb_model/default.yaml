@@ -1,0 +1,16 @@
+model:
+        rgb_model:
+                pretrained: False
+                load_ckpt: '' 
+                norm: ${model.norm}
+                use_model: True
+                resnet_type: 'resnet18'
+                dropout: ${model.dropout}
+                encoder:
+                        channel_factor: ${model.enc_channel_factor}
+                        in_channels: 768
+                        in_scale: ${model.enc_in_scale}
+                        type: ${model.enc_dec_type}
+                        n_downscale: ${model.enc_n_downscale}
+                        transformer_nhead: ${model.transformer_nhead}
+                        transformer_prenorm: ${model.transformer_prenorm}

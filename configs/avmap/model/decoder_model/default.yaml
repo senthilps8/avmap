@@ -1,0 +1,14 @@
+model:
+        decoder_model:
+                norm: ${model.norm}
+                channel_factor: 16
+                output_gridsize: ${data.output_gridsize}
+                out_nhood: ${data.out_nhood} 
+                out_nscales: 1
+                pool_nhoods: False
+                n_attn_heads: 4
+                n_downscale: ${model.enc_n_downscale}
+                transformer_nhead: ${model.transformer_nhead}
+                transformer_prenorm: ${model.transformer_prenorm}
+                n_classes: 2
+                dropout: ${model.dropout}

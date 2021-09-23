@@ -1,0 +1,15 @@
+model:
+        n_steps: ${data.n_steps}
+        align_features: True
+        output_padding: 0
+        step_size: 0
+        position_encoding: True
+        norm: 'batchnorm'
+        enc_in_scale: [32,32]
+        enc_n_downscale: 1
+        enc_channel_factor: 16
+        transformer_nhead: 1
+        transformer_prenorm: True
+        transformer_use_padding_mask: True
+        pool_steps: False
+        dropout: 0.0

@@ -1,0 +1,17 @@
+model:
+        audio_model:
+                norm: ${model.norm}
+                use_model: False
+                input_length: 8000
+                load_ckpt: '' 
+                dropout: ${model.dropout}
+                resnet_type: 'resnet18'
+                feature:
+                        feature_dim: 128
+                encoder:
+                        channel_factor: ${model.enc_channel_factor}
+                        in_scale: ${model.enc_in_scale}
+                        type: ${model.enc_dec_type}
+                        n_downscale: ${model.enc_n_downscale}
+                        transformer_nhead: ${model.transformer_nhead}
+                        transformer_prenorm: ${model.transformer_prenorm}

@@ -1,0 +1,7 @@
+data:
+        train_audio_clip:
+                func: 'freq_sweep_signal'
+                args: [2.5]
+        test_audio_clip:
+                func: 'freq_sweep_signal'
+                args: [2.5]
