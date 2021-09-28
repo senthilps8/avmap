@@ -40,7 +40,7 @@ Choose a project directory (`$PROJ_DIR`) where you plan to store all the data.
 ### Downloading the data
 We release the set of rendered images and audio clips that were 
 used to train and test our models.
-This data can be downloaded from [coming soon](google.com).
+This data can be downloaded from [here](https://drive.google.com/file/d/1gUNU_NgqUbWMyhGIRhsK_BYftSiF0kZE/view?usp=sharing).
 Untar this data in `$PROJ_DIR`.
 
 ### Download the SoundSpaces dataset
